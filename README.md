@@ -31,19 +31,23 @@ The Device Management is a Django-based web application designed to manage devic
 
 ## API Endpoints
 ### Companies
-- `GET /companies/`: List all companies or create a new company.
-- `GET /companies/<int:pk>/`: Retrieve, update, or delete a specific company.
+- `GET /companies/companies/`: List all companies.
+- `POST /companies/companies/`: Create a new company.
+- `GET /companies/companies/<int:pk>/`: Retrieve, update, or delete a specific company.
 
 ### Employees
-- `GET /employees/`: List all employees or create a new employee.
-- `GET /employees/<int:pk>/`: Retrieve, update, or delete a specific employee.
+- `GET /employees/employees/`: List all employees.
+- `POST /employees/employees/`: Create a new employee.
+- `GET /employees/employees/<int:pk>/`: Retrieve, update, or delete a specific employee.
 
 ### Devices
-- `GET /devices/`: List all devices or create a new device.
-- `GET /devices/<int:pk>/`: Retrieve, update, or delete a specific device.
+- `GET /devices/devices/`: List all devices.
+- `POST /devices/devices/`: Create a new device.
+- `GET /devices/devices/<int:pk>/`: Retrieve, update, or delete a specific device.
 
 ### Checkouts
-- `GET /checkouts/`: List all checkouts or create a new checkout.
-- `GET /checkouts/<int:pk>/`: Retrieve, update, or delete a specific checkout.
+- `GET /devices/checkouts/`: List all checkouts.
+- `POST /devices/checkouts/`: Create a new checkout.
+- `GET /devices/checkouts/<int:pk>/`: Retrieve, update, or delete a specific checkout.
 
 
