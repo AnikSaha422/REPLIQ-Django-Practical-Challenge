@@ -1,7 +1,7 @@
 # Device Management
 
 ## Introduction
-The Device Management System is a Django-based web application designed to manage devices, employees, and checkouts within a company. It provides endpoints for CRUD operations via a RESTful API for devices, employees, and checkouts.
+The Device Management is a Django-based web application designed to manage devices, employees, and checkouts within a company. It provides endpoints for CRUD operations via a RESTful API for devices, employees, and checkouts.
 
 ## Installation
 1. Clone the repository:
@@ -46,8 +46,4 @@ The Device Management System is a Django-based web application designed to manag
 - `GET /checkouts/`: List all checkouts or create a new checkout.
 - `GET /checkouts/<int:pk>/`: Retrieve, update, or delete a specific checkout.
 
-## Contributing
-Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md) for details on how to contribute to this project.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
