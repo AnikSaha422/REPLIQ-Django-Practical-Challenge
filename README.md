@@ -25,7 +25,7 @@ The Device Management is a Django-based web application designed to manage devic
     python manage.py runserver
     ```
 
-2. Access the API documentation at `http://localhost:8000/api-docs/` to explore available endpoints and their usage.
+2. Access the API documentation at `http://127.0.0.1:8000/api-docs/` to explore available endpoints and their usage.
 
 3. Use tools like Postman or curl to interact with the API endpoints.
 
