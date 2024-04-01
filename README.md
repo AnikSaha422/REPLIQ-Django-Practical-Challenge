@@ -1,4 +1,4 @@
-# Device Management System
+# Device Management
 
 ## Introduction
 The Device Management System is a Django-based web application designed to manage devices, employees, and checkouts within a company. It provides endpoints for CRUD operations via a RESTful API for devices, employees, and checkouts.
